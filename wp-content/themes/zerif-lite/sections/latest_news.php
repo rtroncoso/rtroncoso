@@ -19,11 +19,11 @@
 					/* title */
 					if( !empty($zerif_latestnews_title) ):
 					
-						echo '<h2 class="dark-text">' . wp_kses_post( $zerif_latestnews_title ) . '</h2>';
+						echo '<h2>' . wp_kses_post( $zerif_latestnews_title ) . '</h2>';
 						
 					else:
 					
-						echo '<h2 class="dark-text">' . __('Latest news','zerif-lite') . '</h2>';
+						echo '<h2>' . __('Latest news','zerif-lite') . '</h2>';
 						
 					endif;
 
@@ -32,11 +32,11 @@
 
 					if( !empty($zerif_latestnews_subtitle) ):
 
-						echo '<div class="dark-text section-legend">'.wp_kses_post( $zerif_latestnews_subtitle ).'</div>';
+						echo '<div class="section-legend">'.wp_kses_post( $zerif_latestnews_subtitle ).'</div>';
 
 					elseif ( isset( $wp_customize ) ):
 					
-						echo '<div class="dark-text section-legend zerif_hidden_if_not_customizer"></div>';
+						echo '<div class="section-legend zerif_hidden_if_not_customizer"></div>';
 						
 					endif;
 				

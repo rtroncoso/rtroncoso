@@ -1693,7 +1693,8 @@ ul.nav > li.current_page_item.current > a:before {
 .latest-news {
 	padding-bottom: 66px;
 	padding-top: 100px;
-	background: #FFFFFF;
+	background: #272727;
+	color: #FFF;
 }
 .carousel-inner {
 /*	margin: 0 30px; */
@@ -1705,11 +1706,11 @@ ul.nav > li.current_page_item.current > a:before {
 .latesnews-content {
 	font-size: 14px;
 	line-height: 18px;
-	color: #777777;
+	color: #fff;
 }
 #carousel-homepage-latestnews .carousel-inner .item .latestnews-title {
 	margin-bottom: 15px;
-	color: #404040;
+	color: #fff;
 	position: relative;
 	display: inline-block;
 	text-transform: uppercase;
@@ -1722,7 +1723,7 @@ ul.nav > li.current_page_item.current > a:before {
 }
 #carousel-homepage-latestnews .carousel-inner .item .latestnews-title a {
 	text-transform: uppercase;
-	color: #404040;
+	color: #fff;
 	font-weight: 700;
 	display: block;
 }
